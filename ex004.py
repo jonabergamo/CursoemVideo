@@ -1,0 +1,8 @@
+entrada = input('Digite qualquer coisa: ')
+print('Ele é do tipo {}' .format(type(entrada)))
+print('É um caractere? ', entrada.isalpha())
+print('É um número? ', entrada.isnumeric())
+print('Está tudo em maiusculo? ', entrada.isupper())
+print('Está tudo em minusculo? ', entrada.islower())
+print('Só tem espaços? ', entrada.isspace())
+print('É alphanumérico? ', entrada.isalnum())
